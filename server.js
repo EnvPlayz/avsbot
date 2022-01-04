@@ -64,4 +64,4 @@ function secs(number){
     return number+000
 }
 secs(5)
-client.login(process.env.PORT)
+client.login(process.env.TOKEN)
