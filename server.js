@@ -1,7 +1,8 @@
 const discord = require("discord.js");
 const axios = require("axios")
 const intents = new discord.Intents();
-const prefix = "!avs"
+const prefix = "!avs";
+require("dotenv").config();
 const client = new discord.Client({
     intents: [
         discord.Intents.FLAGS.GUILDS,
